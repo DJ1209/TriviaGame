@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../assets/images/images (1).jpg");
+    background-image: url("../../assets/images/trivia background image.jpg");
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -10,7 +10,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    border: 5px double #0099cc;
     border-radius: 60px;
 }
 
@@ -25,8 +24,10 @@ body {
 }
 
 img {
-    height: 100%;
-    width: 100%;
+    margin-top: 15%;
+    margin-left: 5%;
+    height: 75%;
+    width: 80%;
 }
 
 #question-text {
@@ -35,7 +36,7 @@ img {
     padding-bottom: auto;
     padding-right: 5%;
     font-size: 36pt;
-    color: #0099cc;
+    color: #ff0000;
 }
 
 button {
@@ -62,9 +63,13 @@ button {
 }
 
 .answerOptions {
-    display: block;
+    display: #0099cc;
     margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
     width: 90%;
+}
+
+#answerArea {
+    color: red;
 }
